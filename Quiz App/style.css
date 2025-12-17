@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+    margin: 0;
+}
+
+.main-container {
+    width: 100vw;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 0px 30px;
+}
+
+.main-container h1 {
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #313244;
+    color: #cdd6f4;
+}
+
+.main-container h1 span {
+    color: #89b4fa;
+    /* Soft Blue Accent */
+}
+
+.container {
+    padding: 30px;
+    border: 1px solid #313244;
+    border-radius: 20px;
+    background-color: #181825;
+    /* Darker Card Background */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.container .quiz {
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.container .quiz .question-text {
+    color: #cdd6f4;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px 0;
+    margin-bottom: 25px;
+    line-height: 1.4;
+}
+
+.container .quiz .btn {
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    background-color: #313244;
+    color: #cdd6f4;
+    font-weight: 500;
+    text-align: left;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.container .quiz .btn:hover:not([disabled]) {
+    background-color: #45475a;
+    border-color: #89b4fa;
+}
+
+.container .quiz .btn:disabled {
+    cursor: no-drop;
+    opacity: 0.7;
+}
+
+.container .next {
+    width: 100%;
+    padding: 15px;
+    background-color: #89b4fa;
+    color: #1e1e2e;
+    font-weight: 700;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 12px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    display: none;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+    letter-spacing: 2px;
+}
+
+.container .next:hover {
+    background-color: #2c5feb;
+    color: #cdd6f4;
+}
+
+.container .quiz .btn.correct {
+    background-color: #a6e3a1;
+    color: #1e1e2e;
+    border-color: #a6e3a1;
+}
+
+.container .quiz .btn.incorrect {
+    background-color: #f38ba8;
+    color: #1e1e2e;
+    border-color: #f38ba8;
+}
