@@ -1,0 +1,132 @@
+/* Global design tokens for consistent branding */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+:root {
+    --primary-color: #019f55;
+    --primary-hover: #02b662;
+    --bg-gradient-start: #0f172a;
+    --bg-gradient-end: #000000;
+    --card-bg: rgba(255, 255, 255, 0.05);
+    --text-color: #ffffff;
+    --input-bg: #ffffff;
+    --input-text: #333333;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+/* Full screen centering with a modern gradient background */
+body {
+    background-color: var(--bg-gradient-start);
+    background-image: linear-gradient(135deg, var(--bg-gradient-start) 0%, var(--bg-gradient-end) 100%);
+    color: var(--text-color);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Glassmorphism card container with subtle borders and shadows */
+.container {
+    width: 90%;
+    max-width: 650px;
+    background: var(--card-bg);
+    backdrop-filter: blur(10px);
+    border-bottom: 4px solid var(--primary-color);
+    padding: 40px;
+    border-radius: 16px;
+    transition: transform 0.3s ease;
+}
+
+/* Header styling */
+
+.container h1 {
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 30px;
+    line-height: 1.3;
+}
+
+.container h1 span {
+    color: var(--primary-color);
+    border-bottom: 4px solid var(--primary-color);
+    padding-bottom: 4px;
+}
+
+/* Password output styling */
+.display {
+    background-color: var(--input-bg);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    margin-bottom: 25px;
+    transition: box-shadow 0.3s;
+}
+
+/* Focus glow effect */
+.display:focus-within {
+    box-shadow: 0 0 0 3px rgba(1, 159, 85, 0.3);
+}
+
+/* Clean input field */
+.display input {
+    flex: 1;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: var(--input-text);
+}
+
+.display input::placeholder {
+    color: #999;
+}
+
+/* copy icon */
+.display img {
+    width: 24px;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.2s, transform 0.2s;
+}
+
+.display img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+/* Styling button */
+.container button {
+    width: 100%;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(1, 159, 85, 0.25);
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+/* Button hover */
+.container button:hover {
+    background-color: var(--primary-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 15px 25px rgba(1, 159, 85, 0.35);
+}
+
+/* Custom text selection color matching the brand */
+::selection {
+    background: var(--primary-color);
+    color: #080101;
+}
