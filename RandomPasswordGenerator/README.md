@@ -48,6 +48,8 @@ A sleek, professional, and secure random password generator built with modern we
 ## 👤 Author
 
 **Ramran Vijay**
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
-- GitHub: [RamranVijay10](https://github.com/RamranVijay10)
+- GitHub: [@RamranVijay10](https://github.com/RamranVijay10)
+- LinkedIn: [Ramran Vijay Pratap Yadav](https://www.linkedin.com/in/ramran-vijay-pratap-yadav-252400295)
+- Email: stkhunter01@gmail.com
+- Portfolio: [Mini JavaScript Projects](https://github.com/RamranVijay10/Mini-JavaScript-Projects)
 

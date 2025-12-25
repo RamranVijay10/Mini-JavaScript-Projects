@@ -47,7 +47,7 @@ Detailed breakdown showing years, months, days, total days lived, and days until
 
 1. **Clone the repository** or download the files:
    ```bash
-   git clone https://github.com/yourusername/age-calculator.git
+   git clone https://github.com/RamranVijay10/Mini-JavaScript-Projects.git
    ```
 
 2. **Navigate to the project directory**:
@@ -198,9 +198,11 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 👨‍💻 Author
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+**Ramran Vijay**
+- GitHub: [@RamranVijay10](https://github.com/RamranVijay10)
+- LinkedIn: [Ramran Vijay Pratap Yadav](https://www.linkedin.com/in/ramran-vijay-pratap-yadav-252400295)
+- Email: stkhunter01@gmail.com
+- Portfolio: [Mini JavaScript Projects](https://github.com/RamranVijay10/Mini-JavaScript-Projects)
 
 ## 🙏 Acknowledgments
 

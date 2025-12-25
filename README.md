@@ -16,3 +16,14 @@ A stunning dark-themed age calculator that displays your exact age in years, mon
 ---
 
 *More projects coming soon!*
+
+## 👤 Author
+
+**Ramran Vijay**
+- GitHub: [@RamranVijay10](https://github.com/RamranVijay10)
+- LinkedIn: [Ramran Vijay Pratap Yadav](https://www.linkedin.com/in/ramran-vijay-pratap-yadav-252400295)
+- Email: stkhunter01@gmail.com
+
+---
+
+*Building modern web applications with JavaScript, HTML & CSS* ✨

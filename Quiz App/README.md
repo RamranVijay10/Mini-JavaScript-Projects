@@ -46,3 +46,11 @@ A professional, modern, and interactive Quiz Application built using vanilla HTM
 ## 🤝 Contribution
 
 Feel free to fork this project and submit pull requests to add new features or questions!
+
+## 👤 Author
+
+**Ramran Vijay**
+- GitHub: [@RamranVijay10](https://github.com/RamranVijay10)
+- LinkedIn: [Ramran Vijay Pratap Yadav](https://www.linkedin.com/in/ramran-vijay-pratap-yadav-252400295)
+- Email: stkhunter01@gmail.com
+- Portfolio: [Mini JavaScript Projects](https://github.com/RamranVijay10/Mini-JavaScript-Projects)
