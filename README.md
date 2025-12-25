@@ -10,6 +10,9 @@ A modern, interactive general knowledge quiz application featuring a sleek dark 
 ### 2. [Random Password Generator](./RandomPasswordGenerator)
 A professional, glassmorphism-styled password generator with custom character sets and one-click copy functionality.
 
+### 3. [Age Calculator](./AgeCalculator)
+A stunning dark-themed age calculator that displays your exact age in years, months, and days, plus total days lived and days until your next birthday.
+
 ---
 
 *More projects coming soon!*
