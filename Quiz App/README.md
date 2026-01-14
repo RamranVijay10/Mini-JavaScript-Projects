@@ -2,6 +2,13 @@
 
 A professional, modern, and interactive Quiz Application built using vanilla HTML, CSS, and JavaScript. The app features a sleek dark theme, responsive design, and instant feedback for users.
 
+## 📸 Demo
+
+![BrainBox Demo](./demo-screenshot.png)
+
+### ✨ Try it Live
+[Live Demo](https://brainbox-iota.vercel.app/)
+
 ## 🚀 Features
 
 -   **Interactive Quiz Interface**: Clean and distraction-free UI.
